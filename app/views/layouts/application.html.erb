@@ -14,7 +14,7 @@
       <nav>
         <section class="inner-nav">
           <%= image_tag "logo.png", class: "logo" %>
-          <%= form_tag :asteroids_search, method: :get, class: "date-search" do %>
+          <%= form_tag :most_dangerous_day, method: :get, class: "date-search" do %>
             <%= text_field_tag :start_date, "START DATE", class: "input datepicker" %>
             <%= text_field_tag :end_date, "END DATE", class: "input datepicker" %>
             <section>
